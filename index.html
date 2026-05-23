@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hadriel | Portfolio TIK XIA3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<canvas id="particles" aria-hidden="true"></canvas>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#home" class="brand">hadriel<span>//</span>portfolio</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#biodata">Biodata</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#nilai">Nilai</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header id="home" class="hero">
+  <div class="hero-content">
+    <p class="hero-eyebrow">// hello, i'm</p>
+    <h1>Hadriel Avanandra</h1>
+    <p class="hero-tagline">Aspiring Aerospace Engineer<span class="cursor"></span></p>
+    <p class="lead">Siswa kelas XIA3 Kolese Kanisius. Membangun project web sebagai bagian dari pembelajaran TIK — fokus pada fisika, matematika, dan pemrograman sebagai fondasi engineering masa depan.</p>
+    <div class="cta-group">
+      <a href="#projects" class="btn btn-primary">Lihat Projects</a>
+      <a href="#biodata" class="btn btn-outline">Tentang Saya</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <img src="hero-code.png" alt="Holographic code brackets" />
+  </div>
+</header>
+
+<section id="biodata">
+  <h2 class="section-title">Biodata Siswa</h2>
+  <div class="card">
+    <div class="biodata-grid">
+      <div class="photo-frame">
+        <img src="pasfoto.jpg" alt="Foto Hadriel Avanandra Sitorus" />
+      </div>
+      <ul class="biodata-list">
+        <li><span class="label">Nama Lengkap:</span> Hadriel Avanandra Sitorus</li>
+        <li><span class="label">Kelas:</span> XIA3</li>
+        <li><span class="label">Sekolah:</span> Kolese Kanisius</li>
+        <li><span class="label">Hobi:</span> Voli, MUN, bodybuilding, science research</li>
+        <li><span class="label">Cita-cita:</span> Aerospace Engineer</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="section-title">Tentang Saya</h2>
+  <div class="card about-card">
+    <p>Perkenalkan, nama saya Hadriel — siswa kelas XIA3 Kolese Kanisius Jakarta. Saya memiliki mimpi besar untuk menjadi seorang Aerospace Engineer, dan untuk mencapainya saya merancang masa SMA saya dengan pembelajaran yang produktif dan berorientasi pada sains.</p>
+    <p>Fokus utama saya tertuju pada fisika dan matematika sebagai fondasi utama engineering. Namun, saya juga menyadari bahwa dunia kedirgantaraan modern sangat erat kaitannya dengan kemampuan pemrograman. Maka dari itu, sepanjang semester ini saya mendalami pemrograman web — mulai dari HTML, CSS, hingga JavaScript.</p>
+    <p>Perjalanan belajar ini tidak hanya meningkatkan skill teknis saya, tetapi juga mempertajam kemampuan berpikir logis dan problem-solving yang sangat relevan dengan dunia engineering.</p>
+  </div>
+</section>
+
+<section id="nilai">
+  <h2 class="section-title">Nilai Semester</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>No</th><th>Mata Pelajaran</th><th>Nilai</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Fisika</td><td><span class="badge high">100</span></td></tr>
+        <tr><td>2</td><td>Matematika Wajib</td><td><span class="badge high">99</span></td></tr>
+        <tr><td>3</td><td>Kimia</td><td><span class="badge high">100</span></td></tr>
+        <tr><td>4</td><td>Matematika Lanjut</td><td><span class="badge high">96</span></td></tr>
+        <tr><td>5</td><td>Informatika</td><td><span class="badge high">96</span></td></tr>
+        <tr><td>6</td><td>Biologi</td><td><span class="badge high">99</span></td></tr>
+        <tr><td>7</td><td>Bahasa Indonesia</td><td><span class="badge mid">92</span></td></tr>
+        <tr><td>8</td><td>Bahasa Inggris</td><td><span class="badge high">98</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Project Semester Ini</h2>
+  <div class="projects-grid">
+
+    <article class="card project-card">
+      <div class="project-thumb">
+        <img src="lari.jpg" alt="CaniGesit Runners" loading="lazy" />
+      </div>
+      <div class="project-body">
+        <div class="project-head">
+          <h3>CaniGesit Runners</h3>
+          <span class="year-badge">2025</span>
+        </div>
+        <p>Website komunitas lari CaniGesit Runners yang saya rancang dari nol — lengkap dengan registrasi anggota, kalender event lari, leaderboard, dan photo album komunitas...</p>
+        <div class="project-foot">
+          <div class="tag-row">
+            <span class="tag html">HTML</span>
+            <span class="tag css">CSS</span>
+            <span class="tag js">JavaScript</span>
+          </div>
+          <a href="project1.html" class="view-link">View <span class="arrow">↗</span></a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card project-card">
+      <div class="project-thumb">
+        <img src="img-concert.jpg" alt="Captix" loading="lazy" />
+      </div>
+      <div class="project-body">
+        <div class="project-head">
+          <h3>Captix</h3>
+          <span class="year-badge">2025</span>
+        </div>
+        <p>Platform pembelian tiket digital untuk kegiatan Kolese Kanisius seperti CC Cup dan Canisius Art Performance, dengan pemilihan kursi dan penerbitan tiket otomatis...</p>
+        <div class="project-foot">
+          <div class="tag-row">
+            <span class="tag html">HTML</span>
+            <span class="tag css">CSS</span>
+            <span class="tag js">JavaScript</span>
+          </div>
+          <a href="project2.html" class="view-link">View <span class="arrow">↗</span></a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card project-card">
+      <div class="project-thumb">
+        <img src="japanvoli.jpg" alt="POR CC" loading="lazy" />
+      </div>
+      <div class="project-body">
+        <div class="project-head">
+          <h3>POR CC</h3>
+          <span class="year-badge">2025</span>
+        </div>
+        <p>Website resmi Pekan Olahraga Kolese Kanisius — memuat informasi acara, teknis lomba, dan sistem pendaftaran untuk seluruh cabang olahraga POR CC...</p>
+        <div class="project-foot">
+          <div class="tag-row">
+            <span class="tag html">HTML</span>
+            <span class="tag css">CSS</span>
+            <span class="tag js">JavaScript</span>
+          </div>
+          <a href="project3.html" class="view-link">View <span class="arrow">↗</span></a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<footer>
+  © 2025 Hadriel Avanandra Sitorus · XIA3 Kolese Kanisius · TIK Portfolio
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
